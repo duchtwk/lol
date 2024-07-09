@@ -1,0 +1,13 @@
+--In eigenen Branches pushen--
+
+git checkout <name> //Zu Branch wechseln 
+
+git add <Datei-Name> //Am besten nicht mit . pushen, sonst pusht man alles und nicht nur die bearbeiteten dateien
+
+git commit -m <"Nachricht"> 
+
+git push 
+
+//ggf. kommt fehlermeldung, dann 
+
+git push --set-upstream origin <Aktueller-Branch>
